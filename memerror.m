@@ -78,7 +78,7 @@ int main (int argc, char *argv[])
 
     // make a copy of the argument so we can make changes to it
     stringbuffer = malloc (strlen(argv[1]) + 1);
-    strcpy (argv[1], stringbuffer);
+    strcpy (stringbuffer, argv[1]);
 
     // reverse the string
     reverseIt (stringbuffer);
