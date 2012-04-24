@@ -30,7 +30,7 @@ void reverseIt (char *stringbuffer)
 
     // find the start and end of the string so we can walk it
     scan = stringbuffer;
-    stop = stringbuffer + strlen(stringbuffer) + 1;
+    stop = stringbuffer + strlen(stringbuffer);
 
     // walk the string
     while (scan < stop) {
