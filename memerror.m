@@ -35,7 +35,7 @@ void reverseIt (char *stringbuffer)
     // walk the string
     while (scan < stop) {
         if (head == NULL) {
-            head = malloc (sizeof(CharNode*));
+            head = malloc (sizeof(CharNode));
             head->theChar = *scan;
             head->next = NULL;
         } else {
