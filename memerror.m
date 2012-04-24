@@ -72,7 +72,7 @@ int main (int argc, char *argv[])
     // make sure the user supplied enough arguments.  If not, complain
     if (argc != 2) {
         fprintf (stderr, "usage: %s string.  This reverses the string "
-                 "given on the command line\n");
+                 "given on the command line\n", argv[0]);
         exit (1);
     }
 
