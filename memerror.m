@@ -54,7 +54,7 @@ void reverseIt (char *stringbuffer)
     while (head != NULL) {
         *scan = head->theChar;
         node = head->next;
-		free (head)
+		free (head);
         head = node;
         scan++;
     }
