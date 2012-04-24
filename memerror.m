@@ -39,7 +39,7 @@ void reverseIt (char *stringbuffer)
             head->theChar = *scan;
             head->next = NULL;
         } else {
-            node = malloc (sizeof(CharNode*));
+            node = malloc (sizeof(CharNode));
             node->theChar = *scan;
             node->next = head;
             head = node;
