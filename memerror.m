@@ -84,7 +84,7 @@ int main (int argc, char *argv[])
     reverseIt (stringbuffer);
 
     // and print it out
-    printf ("the reversed string is '%s'\n", *stringbuffer);
+    printf ("the reversed string is '%s'\n", stringbuffer);
 
     return (0);
 
