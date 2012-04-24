@@ -53,8 +53,8 @@ void reverseIt (char *stringbuffer)
     // walk the nodes and add them to the string
     while (head != NULL) {
         *scan = head->theChar;
-        free (head);
         node = head->next;
+		free (head)
         head = node;
         scan++;
     }
